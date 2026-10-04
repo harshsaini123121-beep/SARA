@@ -1,0 +1,6 @@
+{
+  "algorithm": "RandomForestRegressor (Hotspot Forecaster)",
+  "mae": 0.0395,
+  "r2": 0.9434,
+  "records": 10000
+}

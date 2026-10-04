@@ -1,0 +1,11 @@
+{
+  "algorithm": "RandomForestClassifier (Triage Engine)",
+  "accuracy": 0.9181,
+  "records": 8000,
+  "classes": [
+    "CRITICAL",
+    "HIGH",
+    "MEDIUM",
+    "LOW"
+  ]
+}

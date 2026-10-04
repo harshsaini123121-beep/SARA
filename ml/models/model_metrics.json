@@ -1,0 +1,31 @@
+{
+  "algorithm": "RandomForestRegressor",
+  "training_records": 12000,
+  "test_records": 2400,
+  "mae": 3.381,
+  "rmse": 5.639,
+  "r2": 0.9703,
+  "feature_importance_raw": {
+    "distance_km": 0.575355737536195,
+    "hour_of_day": 0.012966735952595607,
+    "day_of_week": 0.006185583647350468,
+    "traffic_level_HIGH": 0.06628921916923684,
+    "traffic_level_LOW": 0.009295521636770889,
+    "traffic_level_MEDIUM": 0.00790568071148888,
+    "traffic_level_SEVERE": 0.11872419563461638,
+    "weather_condition_CLEAR": 0.030725269667125816,
+    "weather_condition_FOG": 0.003292562181525616,
+    "weather_condition_RAIN": 0.0017060607336423746,
+    "road_type_HIGHWAY": 0.12544191008042502,
+    "road_type_NARROW": 0.020437763984723356,
+    "road_type_URBAN": 0.021673759064303924
+  },
+  "feature_importance_aggregated": {
+    "Distance": 0.575355737536195,
+    "Hour of Day": 0.012966735952595607,
+    "Day of Week": 0.006185583647350468,
+    "Traffic Level": 0.20221461715211297,
+    "Weather Condition": 0.035723892582293804,
+    "Road Type": 0.1675534331294523
+  }
+}

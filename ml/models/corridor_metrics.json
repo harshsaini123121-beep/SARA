@@ -1,0 +1,6 @@
+{
+  "algorithm": "RandomForestRegressor (Green Corridor Engine)",
+  "mae": 0.0882,
+  "r2": 0.9997,
+  "records": 6000
+}
